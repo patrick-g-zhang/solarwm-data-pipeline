@@ -30,3 +30,8 @@ dist/
 .idea/
 .vscode/
 .DS_Store
+
+# local eval sweeps: keep the tracks, drop the reproducible bulk
+# (video.mp4 is already tracked under test_data/, _work/ is regenerable)
+test/runs/*/*/video.mp4
+test/runs/*/*/_work/
